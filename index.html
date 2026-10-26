@@ -96,41 +96,64 @@
             </div>
           </div>
 
-          <!-- Columna derecha: Tarjeta síntesis institucional -->
+          <!-- Columna derecha: Diagrama de Flujo Democrático -->
           <div class="hero-visual-side">
-            <div class="hero-visual-card" role="region" aria-label="Síntesis de ejes institucionales">
+            <div class="hero-visual-card" role="region" aria-label="Diagrama de flujo democrático del centro de estudiantes">
               <div class="hero-card-header">
-                <span class="hero-card-tag">Guía Informativa</span>
-                <span class="hero-card-context">Educación Superior</span>
+                <span class="hero-card-tag">Flujo Democrático</span>
+                <span class="hero-card-context">Estructura Orgánica</span>
               </div>
 
-              <ul class="hero-pillars-list">
-                <li class="hero-pillar-item">
-                  <span class="hero-pillar-dot orange" aria-hidden="true"></span>
-                  <div>
-                    <div class="hero-pillar-title">Marco Normativo</div>
-                    <p class="hero-pillar-sub">Ley Nacional 26.877 · Ley Provincial 9870 · Res. Ministerial 124/2010</p>
+              <div class="hero-flow-diagram">
+                <div class="hero-flow-node">
+                  <div class="hero-flow-node-main">
+                    <div class="hero-flow-title">Asamblea General</div>
+                    <p class="hero-flow-sub">Conjunto de estudiantes · Aprueba el estatuto</p>
                   </div>
-                </li>
-                <li class="hero-pillar-item">
-                  <span class="hero-pillar-dot cyan" aria-hidden="true"></span>
-                  <div>
-                    <div class="hero-pillar-title">Estructura Democrática</div>
-                    <p class="hero-pillar-sub">Asamblea General, Cuerpo de Delegados y Comisión Directiva</p>
+                  <span class="hero-flow-badge">Máxima autoridad</span>
+                </div>
+
+                <div class="hero-flow-connector" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7 15l5 5 5-5"></path>
+                    <path d="M7 9l5-5 5 5"></path>
+                  </svg>
+                  <span>Delibera y mandata</span>
+                </div>
+
+                <div class="hero-flow-node node-delegados">
+                  <div class="hero-flow-node-main">
+                    <div class="hero-flow-title">Cuerpo de Delegados</div>
+                    <p class="hero-flow-sub">1 titular + 1 suplente por curso</p>
                   </div>
-                </li>
-                <li class="hero-pillar-item">
-                  <span class="hero-pillar-dot light" aria-hidden="true"></span>
-                  <div>
-                    <div class="hero-pillar-title">Participación y Diálogo</div>
-                    <p class="hero-pillar-sub">Iniciativa estudiantil autónoma y acompañamiento institucional</p>
+                  <span class="hero-flow-badge">Enlace por curso</span>
+                </div>
+
+                <div class="hero-flow-connector" aria-hidden="true">
+                  <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round">
+                    <path d="M7 15l5 5 5-5"></path>
+                    <path d="M7 9l5-5 5 5"></path>
+                  </svg>
+                  <span>Articula inquietudes y propuestas</span>
+                </div>
+
+                <div class="hero-flow-node node-directiva">
+                  <div class="hero-flow-node-main">
+                    <div class="hero-flow-title">Comisión Directiva</div>
+                    <p class="hero-flow-sub">Presidencia, Vicepresidencia, Actas y Finanzas</p>
                   </div>
-                </li>
-              </ul>
+                  <span class="hero-flow-badge">Órgano ejecutivo</span>
+                </div>
+
+                <div class="hero-junta-pill">
+                  <span><strong>Junta Electoral</strong> (Estatuto Modelo provincial)</span>
+                  <span>Fiscalización electoral</span>
+                </div>
+              </div>
 
               <div class="hero-card-footer">
-                <div class="hero-card-footer-text">Material de orientación para estudiantes y docentes</div>
-                <div class="hero-card-footer-sub">Instituto Leibnitz · Villa María, Córdoba</div>
+                <div class="hero-card-footer-text">Representación democrática en el Nivel Superior</div>
+                <div class="hero-card-footer-sub">Ley Nacional 26.877 · Ley Provincial 9870 · Res. 124/2010</div>
               </div>
             </div>
           </div>
@@ -224,6 +247,79 @@
         <p class="section-desc">
           La organización articula la deliberación del conjunto de estudiantes, la representación por curso y la gestión ejecutiva.
         </p>
+
+        <!-- Gráfico Vectorial: Diagrama de Flujo Democrático -->
+        <div class="flow-graphic-box" role="region" aria-label="Esquema gráfico de circulación democrática entre órganos">
+          <div class="flow-graphic-header">
+            <div class="flow-graphic-title">
+              <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+                <circle cx="18" cy="5" r="3"></circle>
+                <circle cx="6" cy="12" r="3"></circle>
+                <circle cx="18" cy="19" r="3"></circle>
+                <line x1="8.59" y1="13.51" x2="15.42" y2="17.49"></line>
+                <line x1="15.41" y1="6.51" x2="8.59" y2="10.49"></line>
+              </svg>
+              <span>Circulación de decisiones y representación estudiantil</span>
+            </div>
+            <span class="flow-graphic-tag">Esquema Orgánico</span>
+          </div>
+
+          <div class="flow-svg-wrapper">
+            <svg class="flow-svg" viewBox="0 0 980 230" role="img" aria-label="Diagrama de flujo: Asamblea General delibera y mandata al Cuerpo de Delegados, que articula propuestas con la Comisión Directiva, junto al nodo de Junta Electoral previsto en el modelo provincial">
+              <defs>
+                <marker id="arrow-right" viewBox="0 0 10 10" refX="7" refY="5" markerWidth="6" markerHeight="6" orient="auto-start-reverse">
+                  <path d="M 0 1.5 L 8 5 L 0 8.5 z" fill="#d96b27"/>
+                </marker>
+                <marker id="arrow-left" viewBox="0 0 10 10" refX="3" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+                  <path d="M 10 1.5 L 2 5 L 10 8.5 z" fill="#091124"/>
+                </marker>
+              </defs>
+
+              <!-- Nodo 1: Asamblea General -->
+              <rect x="14" y="24" width="235" height="118" rx="12" fill="#091124" stroke="#091124" stroke-width="2"/>
+              <rect x="14" y="24" width="235" height="6" rx="3" fill="#d96b27"/>
+              <text x="131" y="55" text-anchor="middle" fill="#fed7aa" font-family="'Open Sans', sans-serif" font-size="10.5" font-weight="700" letter-spacing="0.8">MÁXIMA AUTORIDAD</text>
+              <text x="131" y="80" text-anchor="middle" fill="#ffffff" font-family="'Lora', Georgia, serif" font-size="17" font-weight="700">Asamblea General</text>
+              <text x="131" y="103" text-anchor="middle" fill="#cbd5e1" font-family="'Open Sans', sans-serif" font-size="11.5">Conjunto de estudiantes</text>
+              <text x="131" y="122" text-anchor="middle" fill="#94a3b8" font-family="'Open Sans', sans-serif" font-size="11">Aprueba y modifica el estatuto</text>
+
+              <!-- Flechas bidireccionales 1 <-> 2 -->
+              <line x1="256" y1="70" x2="352" y2="70" stroke="#d96b27" stroke-width="2.2" marker-end="url(#arrow-right)"/>
+              <line x1="256" y1="96" x2="352" y2="96" stroke="#091124" stroke-width="2" stroke-dasharray="4 3" marker-start="url(#arrow-left)"/>
+              <text x="304" y="60" text-anchor="middle" fill="#d96b27" font-family="'Open Sans', sans-serif" font-size="10.5" font-weight="700">Delibera y mandata</text>
+              <text x="304" y="114" text-anchor="middle" fill="#5a6a85" font-family="'Open Sans', sans-serif" font-size="10" font-weight="600">Eleva temas</text>
+
+              <!-- Nodo 2: Cuerpo de Delegados -->
+              <rect x="360" y="24" width="235" height="118" rx="12" fill="#ffffff" stroke="#091124" stroke-width="2"/>
+              <rect x="360" y="24" width="235" height="6" rx="3" fill="#2563eb"/>
+              <text x="477" y="55" text-anchor="middle" fill="#2563eb" font-family="'Open Sans', sans-serif" font-size="10.5" font-weight="700" letter-spacing="0.8">ENLACE POR CURSO</text>
+              <text x="477" y="80" text-anchor="middle" fill="#091124" font-family="'Lora', Georgia, serif" font-size="17" font-weight="700">Cuerpo de Delegados</text>
+              <text x="477" y="103" text-anchor="middle" fill="#2d3748" font-family="'Open Sans', sans-serif" font-size="11.5">1 titular + 1 suplente por curso</text>
+              <text x="477" y="122" text-anchor="middle" fill="#5a6a85" font-family="'Open Sans', sans-serif" font-size="11">Comunica inquietudes y propuestas</text>
+
+              <!-- Flechas bidireccionales 2 <-> 3 -->
+              <line x1="602" y1="70" x2="698" y2="70" stroke="#d96b27" stroke-width="2.2" marker-end="url(#arrow-right)"/>
+              <line x1="602" y1="96" x2="698" y2="96" stroke="#091124" stroke-width="2" stroke-dasharray="4 3" marker-start="url(#arrow-left)"/>
+              <text x="650" y="60" text-anchor="middle" fill="#d96b27" font-family="'Open Sans', sans-serif" font-size="10.5" font-weight="700">Articula propuestas</text>
+              <text x="650" y="114" text-anchor="middle" fill="#5a6a85" font-family="'Open Sans', sans-serif" font-size="10" font-weight="600">Informa gestión</text>
+
+              <!-- Nodo 3: Comisión Directiva -->
+              <rect x="706" y="24" width="258" height="118" rx="12" fill="#ffffff" stroke="#091124" stroke-width="2"/>
+              <rect x="706" y="24" width="258" height="6" rx="3" fill="#d96b27"/>
+              <text x="835" y="55" text-anchor="middle" fill="#d96b27" font-family="'Open Sans', sans-serif" font-size="10.5" font-weight="700" letter-spacing="0.8">ÓRGANO EJECUTIVO</text>
+              <text x="835" y="80" text-anchor="middle" fill="#091124" font-family="'Lora', Georgia, serif" font-size="17" font-weight="700">Comisión Directiva</text>
+              <text x="835" y="103" text-anchor="middle" fill="#2d3748" font-family="'Open Sans', sans-serif" font-size="11.5">Presidencia, Vice y Secretarías</text>
+              <text x="835" y="122" text-anchor="middle" fill="#5a6a85" font-family="'Open Sans', sans-serif" font-size="11">Obligatorias: Actas y Finanzas</text>
+
+              <!-- Conector y Nodo Punteado: Junta Electoral -->
+              <path d="M 131 142 L 131 186 L 340 186" fill="none" stroke="#d96b27" stroke-width="1.8" stroke-dasharray="5 4"/>
+              <path d="M 835 142 L 835 186 L 640 186" fill="none" stroke="#d96b27" stroke-width="1.8" stroke-dasharray="5 4"/>
+              <rect x="340" y="160" width="300" height="52" rx="10" fill="#fdf5ef" stroke="#d96b27" stroke-width="1.8" stroke-dasharray="6 4"/>
+              <text x="490" y="182" text-anchor="middle" fill="#091124" font-family="'Lora', Georgia, serif" font-size="14" font-weight="700">Junta Electoral (Estatuto Modelo)</text>
+              <text x="490" y="200" text-anchor="middle" fill="#5a6a85" font-family="'Open Sans', sans-serif" font-size="11">Fiscaliza el proceso electoral · Voto secreto, universal y obligatorio</text>
+            </svg>
+          </div>
+        </div>
 
         <!-- Composición visual relacional de los tres órganos -->
         <div class="escenarios-grid" role="list" aria-label="Órganos que componen el centro de estudiantes y su relación">
